@@ -23,3 +23,11 @@ header {
     align-items: center;
     width: 200px;
 }
+
+#how-to-play-link a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0483c7;
+    font-weight: bold;
+    text-decoration: none;
+
+}
