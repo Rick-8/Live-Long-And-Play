@@ -91,13 +91,13 @@ header h2 {
     cursor: pointer;
 }
 
-.how-to-btn button {
-    padding: 2px;
+#how-to-btn {
+    padding: 5px;
     cursor: pointer;
     
 }
 
-#how-to-btn button:hover {
+#how-to-btn:hover {
     background-color: rgba(4, 131, 199, 0.4);
 }
 
