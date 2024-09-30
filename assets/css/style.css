@@ -26,19 +26,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #0483c7;
-    font-size: ;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 6vw;
+    font-size: 15vw;
     margin: 0;
+    color: #0483c7;
 }
 
 header h2 {
-    font-size: 3vh;
+    font-size: 8vw;
     color: black;
-}
+   }
 
 .header-text {
     display: flex;
@@ -53,12 +53,46 @@ header h2 {
     width: 200px;
 }
 
-#how-to-play-link a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #0483c7;
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The model Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
     font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
     text-decoration: none;
-}
+    cursor: pointer;
+  }
+  .how-to-btn {
+    border: 15px;
+  }
 
 .game-area {
     background-color: #514663;
@@ -77,9 +111,29 @@ header h2 {
     padding: 20px;
 }
 
+@media (min-width: 562px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
 
+    header h1 {
+        font-size: 8vw;
+        margin: 0;
+        display: flex;
+        margin: 10px;
+    }
+    
+    header h2 {
+        font-size: 5vw;
+        color: black;
+    }
+}
 
-@media (min-width: 932px) {
+@media (min-width: 732px) {
     header {
         display: flex;
         flex-direction: row;
@@ -93,6 +147,16 @@ header h2 {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 200px;
+        width: 150px;
+    }
+    header h1 {
+        font-size: 5vw;
+        margin: 0;
+        display: flex;
+    }
+    
+    header h2 {
+        font-size: 2vw;
+        color: black;
     }
 }
