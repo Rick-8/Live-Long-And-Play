@@ -90,6 +90,14 @@ header h2 {
     text-decoration: none;
     cursor: pointer;
 }
+#how-to-play-list {
+margin-left: 20px;
+}
+
+.modal-content img {
+    max-width: 50vw;
+    max-height: 50vh
+}
 
 #how-to-btn {
     padding: 5px;
@@ -106,14 +114,17 @@ header h2 {
     color: aliceblue;
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
+    height: 30vh;
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
 }
-
+.results {
+    margin-top: 5vh;
+    font-size: 5vw;
+}
 .game-area h3 {
     font-size: 3vw;
 }
@@ -157,6 +168,19 @@ header h2 {
         font-size: 5vw;
         color: black;
     }
+
+    .game-area {
+        background-color: #514663;
+        color: aliceblue;
+        box-sizing: border-box;
+        width: 85%;
+        height: 55vh;
+        max-height: 450px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+    }
 }
 
 @media (min-width: 732px) {
@@ -185,5 +209,9 @@ header h2 {
     header h2 {
         font-size: 2vw;
         color: black;
+    }
+    .results {
+        margin-top: 5vh;
+        font-size: 2vw;
     }
 }
