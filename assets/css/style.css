@@ -53,6 +53,7 @@ header h2 {
     width: 200px;
 }
 
+ /* Modal Content styling */
 .modal {
     display: none; 
     position: fixed; 
@@ -67,7 +68,7 @@ header h2 {
     background-color: rgba(0,0,0,0.4); 
   }
   
-  /* Modal Content */
+ 
   .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -76,7 +77,6 @@ header h2 {
     width: 80%;
   }
   
-  /* The model Close Button */
   .close {
     color: #aaaaaa;
     float: right;
@@ -90,8 +90,13 @@ header h2 {
     text-decoration: none;
     cursor: pointer;
   }
-  .how-to-btn {
-    border: 15px;
+  .how-to-btn button {
+    border: 1vw;
+    padding: 2vw;
+    cursor: pointer;
+  }
+  .how-to-btn:hover {
+    background-color: rgba(4,131,199,0.4);
   }
 
 .game-area {
@@ -106,10 +111,27 @@ header h2 {
     margin-right: auto;
     padding: 1%;
 }
+.game-area h3 {
+    font-size: 3vw;
+}
+
+.options-buttons button {
+    padding: 5px;
+    font-size: 2vw;    
+}
 
 .options-buttons {
-    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
+
+.options-buttons i:HOVER {
+   background-color: rgba(4,131,199,0.4);;
+  }
+
+
 
 @media (min-width: 562px) {
     .logo {
