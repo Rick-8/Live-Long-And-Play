@@ -38,7 +38,7 @@ header h1 {
 header h2 {
     font-size: 8vw;
     color: black;
-   }
+}
 
 .header-text {
     display: flex;
@@ -53,51 +53,53 @@ header h2 {
     width: 200px;
 }
 
- /* Modal Content styling */
+/* Modal Content styling */
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-  }
-  
- 
-  .modal-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-  }
-  
-  .close {
+}
+
+.close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-  .how-to-btn button {
-    border: 1vw;
-    padding: 2vw;
+}
+
+.how-to-btn button {
+    padding: 2px;
     cursor: pointer;
-  }
-  .how-to-btn:hover {
-    background-color: rgba(4,131,199,0.4);
-  }
+    
+}
+
+#how-to-btn button:hover {
+    background-color: rgba(4, 131, 199, 0.4);
+}
 
 .game-area {
     background-color: #514663;
@@ -111,13 +113,14 @@ header h2 {
     margin-right: auto;
     padding: 1%;
 }
+
 .game-area h3 {
     font-size: 3vw;
 }
 
 .options-buttons button {
     padding: 5px;
-    font-size: 2vw;    
+    font-size: 2vw;
 }
 
 .options-buttons {
@@ -127,9 +130,10 @@ header h2 {
     width: 100%;
 }
 
-.options-buttons i:HOVER {
-   background-color: rgba(4,131,199,0.4);;
-  }
+.options-buttons button:HOVER {
+    background-color: rgba(4, 131, 199, 0.4);
+    ;
+}
 
 
 
@@ -148,7 +152,7 @@ header h2 {
         display: flex;
         margin: 10px;
     }
-    
+
     header h2 {
         font-size: 5vw;
         color: black;
@@ -171,12 +175,13 @@ header h2 {
         align-items: center;
         width: 150px;
     }
+
     header h1 {
         font-size: 5vw;
         margin: 0;
         display: flex;
     }
-    
+
     header h2 {
         font-size: 2vw;
         color: black;
