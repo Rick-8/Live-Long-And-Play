@@ -90,8 +90,9 @@ header h2 {
     text-decoration: none;
     cursor: pointer;
 }
+
 #how-to-play-list {
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 .modal-content img {
@@ -101,12 +102,13 @@ margin-left: 20px;
 
 #how-to-btn {
     padding: 5px;
-    cursor: pointer;
-    
+
+
 }
 
 #how-to-btn:hover {
     background-color: rgba(4, 131, 199, 0.4);
+    cursor: pointer;
 }
 
 .game-area {
@@ -121,12 +123,15 @@ margin-left: 20px;
     margin-right: auto;
     padding: 1%;
 }
+
 .results {
     margin-top: 5vh;
     font-size: 5vw;
 }
+
 .game-area h3 {
     font-size: 3vw;
+    font-weight: normal;
 }
 
 .options-buttons button {
@@ -143,12 +148,12 @@ margin-left: 20px;
 
 .options-buttons button:HOVER {
     background-color: rgba(4, 131, 199, 0.4);
-    ;
+    cursor: pointer;
 }
 
 
 
-@media (min-width: 562px) {
+@media (min-width: 303px) {
     .logo {
         display: flex;
         justify-content: center;
@@ -174,16 +179,33 @@ margin-left: 20px;
         color: aliceblue;
         box-sizing: border-box;
         width: 85%;
-        height: 55vh;
-        max-height: 450px;
-        max-width: 830px;
+        height: 52vh;
+        max-height: 1000px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding: 1%;
     }
 }
 
-@media (min-width: 732px) {
+
+
+
+@media (min-width: 690px) {
+
+    .game-area {
+        background-color: #514663;
+        color: aliceblue;
+        box-sizing: border-box;
+        width: 85%;
+        height: 65vh;
+        max-height: 900px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+    }
+
     header {
         display: flex;
         flex-direction: row;
@@ -210,6 +232,7 @@ margin-left: 20px;
         font-size: 2vw;
         color: black;
     }
+
     .results {
         margin-top: 5vh;
         font-size: 2vw;

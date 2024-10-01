@@ -18,7 +18,7 @@
     <div class="wrapper">
         <header>
             <img class="logo" src="assets/images/rock-paper-logo-circle-354px.png" alt="page-logo">
-           
+
             <div class="header-text">
                 <h1>Live Long and Play</h1>
                 <h2>Rock, Paper, scissors, Lizzard, Spock Game</h2>
@@ -26,56 +26,59 @@
         </header>
         <br>
         <main>
-            <div id="model-how-to-play" >
+            <div id="model-how-to-play">
                 <button id="how-to-btn">How to Play</button>
             </div>
             <div id="myModal" class="modal">
 
                 <!-- Modal how to play content -->
                 <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <p>How To Play...</p>
-                  <br>
-                  <ol id="how-to-play-list">
-                    <li>Select your hand</li>
-                    <li>Click on submit</li>
-                    <li>If you win, you gain a point</li>
-                    <li>If you loose, the coumpter wins a point</li>
-                    <li>There are 5 rounds per game, who ever wins the most wins!</li>
-                  </ol>
-                  <img src="assets/images/RockPaperScissorsLizardSpock.webp" alt="">
+                    <span class="close">&times;</span>
+                    <p>How To Play...</p>
+                    <br>
+                    <ol id="how-to-play-list">
+                        <li>Select your hand</li>
+                        <li>Click on submit</li>
+                        <li>If you win, you gain a point</li>
+                        <li>If you loose, the coumpter wins a point</li>
+                        <li>There are 5 rounds per game, who ever wins the most wins!</li>
+                    </ol>
+                    <img src="assets/images/RockPaperScissorsLizardSpock.webp" alt="how to play diagram">
                 </div>
-              
-              </div>
+
+            </div>
             <br>
             <div class="game-area">
                 <h3>Please Make Your Selection</h3>
                 <br>
                 <div class="options-buttons">
-                    <button><i class="fa-regular fa-hand-back-fist"></i><br>Rock</button>
-                    <button><i class="fa-regular fa-hand"></i><br>Paper</button>
-                    <button><i class="fa-regular fa-hand-scissors"></i><br>Scissors</button>
-                    <button><i class="fa-regular fa-hand-lizard"></i><br>Lizard</button>
-                    <button><i class="fa-regular fa-hand-spock"></i><br>Spock</button>
+                    <button id="rock" class="choice" data-choice="rock"><i class="fa-regular fa-hand-back-fist"></i><br>Rock</button>
+                    <button id="paper" class="choice" data-choice="paper"><i class="fa-regular fa-hand"></i><br>Paper</button>
+                    <button id="scissors" class="choice" data-choice="scissors"><i class="fa-regular fa-hand-scissors"></i><br>Scissors</button>
+                    <button id="lizard" class="choice" data-choice="lizard"><i class="fa-regular fa-hand-lizard"></i><br>Lizard</button>
+                    <button id="spock" class="choice" data-choice="spock"><i class="fa-regular fa-hand-spock"></i><br>Spock</button>
+                    
                 </div>
-                
+
+                <button id="play-button">Play!</button>
+
                 <div class="results">
                     <p id="user-choice">Your Choice: </p>
                     <p id="computer-choice">Computer's Choice: </p>
+                    <br>
                     <p id="result">Result: </p>
+                    <br>
+                    <br>
+                    <div class="score-board">
+                        <p id="user-score">User Score: 0</p>
+                        <p id="computer-score">Computer Score: 0</p>
+                    </div>
                 </div>
-
-
             </div>
-           
-            <div class="score-board">
-                <p id="user-score">User Score: 0</p>
-                <p id="computer-score">Computer Score: 0</p>
-            </div>
-        </div>
+    </div>
 
-        </main>
-        <script src="assets/js/script.js"></script>
+    </main>
+    <script src="assets/js/script.js"></script>
     </div>
     <!--Font Awsome Link-->
     <script src="https://kit.fontawesome.com/58851690d4.js" crossorigin="anonymous"></script>
