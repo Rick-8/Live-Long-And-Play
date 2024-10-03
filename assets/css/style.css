@@ -8,6 +8,7 @@
     font-family: 'bangers', cursive;
 }
 
+/* main body styling */
 body {
     margin: 0;
     padding: 0;
@@ -102,8 +103,6 @@ header h2 {
 
 #how-to-btn {
     padding: 5px;
-
-
 }
 
 #how-to-btn:hover {
@@ -114,23 +113,27 @@ header h2 {
 .game-area {
     background-color: #514663;
     color: aliceblue;
-    box-sizing: border-box;
-    width: 85%;
-    height: 30vh;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-.results {
+#play-button {
+    padding: 2px 50px 2px 50px;
+    font-size: 1.5em;
+}
+
+
+#results {
+    font-size: 15px;
     margin-top: 5vh;
     font-size: 5vw;
+    align-items: left;
 }
 
 .game-area h3 {
-    font-size: 3vw;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -153,40 +156,6 @@ header h2 {
 
 
 
-@media (min-width: 303px) {
-    .logo {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 200px;
-    }
-
-    header h1 {
-        font-size: 8vw;
-        margin: 0;
-        display: flex;
-        margin: 10px;
-    }
-
-    header h2 {
-        font-size: 5vw;
-        color: black;
-    }
-
-    .game-area {
-        background-color: #514663;
-        color: aliceblue;
-        box-sizing: border-box;
-        width: 85%;
-        height: 52vh;
-        max-height: 1000px;
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1%;
-    }
-}
 
 
 
@@ -219,7 +188,7 @@ header h2 {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 150px;
+        width: 200px;
     }
 
     header h1 {
@@ -234,7 +203,9 @@ header h2 {
     }
 
     .results {
+
         margin-top: 5vh;
-        font-size: 2vw;
+        font-size: 19px;
+
     }
 }

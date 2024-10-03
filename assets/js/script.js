@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (winConditions[userChoice].includes(computerChoice)) {
         return "You win!";
       } else {
-        return "You lose!";
+        return "You lost!";
       }
     }
   
@@ -126,9 +126,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (userScore > computerScore) {
         finalMessage = `You won the game with a score of ${userScore} over ${computerScore}! 🎉`;
       } else if (userScore < computerScore) {
-        finalMessage = `The computer won the game with a score of ${computerScore} over ${userScore}. 😔`;
+        finalMessage = `You Lost, the computer won the game with a score of ${computerScore} over your ${userScore}. 😔`;
       } else {
-        finalMessage = `It's a tie with a score of ${userScore} over ${computerScore}. 🤝`;
+        finalMessage = `It's a tie with a score of ${userScore} and ${computerScore}. 🤝`;
       }
   
       /* Show the final message */
