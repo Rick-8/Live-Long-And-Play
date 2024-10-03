@@ -98,13 +98,19 @@ header h2 {
     margin-left: 20px;
 }
 
+#model-how-to-play {
+    text-align: center;
+    margin: 20px 0;
+}
+
 .modal-content img {
     max-width: 50vw;
     max-height: 50vh
 }
 
 #how-to-btn {
-    padding: 5px;
+    font-size: 1.5rem;
+    padding: 0px 20px;
 }
 
 #how-to-btn:hover {
@@ -113,7 +119,7 @@ header h2 {
 }
 
 .game-area {
-    background-color: #514663;
+    background-color: #0483c7;
     color: aliceblue;
     padding: 20px;
     border: none;
@@ -127,14 +133,13 @@ header h2 {
 }
 
 .play-button-container {
-    text-align: center; 
-    margin: 20px 0; 
+    text-align: center;
+    margin: 20px 0;
 }
 
 #play-button {
     padding: 2px 50px 2px 50px;
     font-size: 2em;
-    
 }
 
 
@@ -169,7 +174,7 @@ header h2 {
 @media (min-width: 690px) {
 
     .game-area {
-        background-color: #514663;
+        background-color: #0483c7;
         color: aliceblue;
         box-sizing: border-box;
         width: 85%;
@@ -215,7 +220,7 @@ header h2 {
 
     .results {
         margin-top: 5vh;
-        font-size: 3vw;
+        font-size: 4vw;
 
     }
 }
@@ -223,13 +228,11 @@ header h2 {
 @media (min-width: 870px) {
 
     .game-area {
-        background-color: #514663;
+        background-color: #0483c7;
         color: aliceblue;
         box-sizing: border-box;
         width: 85%;
-        height: 70vh;
-        max-height: 900px;
-        max-width: 830px;
+        height: 60vh;
         margin-left: auto;
         margin-right: auto;
         padding: 1%;
@@ -269,6 +272,6 @@ header h2 {
 
     .results {
         margin-top: 4vh;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }

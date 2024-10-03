@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let userScore = 0;
   let computerScore = 0;
   let userChoice = ""; /* Track the user's current choice */
-  let roundCount = 0;  /* Track the number of rounds played */
+  let roundCount = 0; /* Track the number of rounds played */
   const maxRounds = 5; /* Maximum number of rounds */
 
   /* Get references to HTML elements */
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const userScoreDisplay = document.getElementById("user-score");
   const computerScoreDisplay = document.getElementById("computer-score");
   const playButton = document.getElementById("play-button");
+  const resetButton = document.getElementById("reset-button");
 
   /* Create a display element for rounds */
   const roundDisplay = document.createElement("p");
@@ -172,6 +173,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
   }
+
+  /* Event listener for reset button */
+  resetButton.addEventListener("click", resetGame);
 
   /* Function to capitalize the first letter */
   function capitalize(word) {
