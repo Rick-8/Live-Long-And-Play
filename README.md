@@ -23,14 +23,11 @@ Play Now and Let the Best Mind Win!
 ## project goal
 
 To create a fun and Engaging Game: where Each move is a strategic decision to outwit the computer and rise victorious!
-with future development this website holds potential to incorperate picture instead of text during game play and hoast other games giving the user fun options for as long as needed.
+with future development this website holds potential to incorperate picture's instead of text during game play and hoast other games giving the user fun options for as long as needed.
 
-## Target Audience and Project Goal 
+## Target Audience
 
-The target audience and project goal for this game includes:
-
-* what I set out to create
-    - A fun game for ages 8 and up, that engages users, including the target audiance listed below. 
+The target audience for this game includes:
 
 * Casual Gamers:
 
@@ -75,6 +72,47 @@ The target audience and project goal for this game includes:
 
 By targeting a broad yet focused audience, this game has the potential to attract a wide range of players looking for a quick and engaging experience! 
 
+## Features
+
+* Core website Design
+
+   -  The whole wesite was selected to contain the same font throughout for better UX and overall look.
+   -  Google font used was selected because it was easy to read, given its playful nature, and works well with the logo and over all theme.
+   -  Colour schemes were kept minimal, and used in contrast to improve UX making it easy to navigate and easy to understand.
+   -  Responsive features like button hover effects and curser changes were added, to give the website more appeal.
+   -  How to Play Model was used to keep the main website clutter free, which free's the user to play a game thats easier on the eye, improving UX.
+   -  Game play buttons were given the same styling to imporve the site look and over all UX.
+
+* ![Screenshot of the websites homepage on different devices](favicon.ico) Favicon 
+  - I used windows paint to crop the logo down as shown above, as it was bright and matched the logo inside for continuity.
+  - I then uploaded the file to the website [Favomatic](https://favicomatic.com/) to create the favicon.
+  - [Go to code (opens in another window)](index.html#shortcut-icon)
+
+* Header
+
+  ![Header image](assets/images/p2-header.webp.png)
+
+    - I created a logo using AI to give it a fun, bright and enticing appeal.
+    - Heading text was made large and given a sub heading which instantaneously makes the user aware of the website purpose.
+
+* Top Buttons Section
+
+    -  Above the game play area, are 2 bottons.   
+
+![top buttons image](assets/images/top-bottons.webp)
+
+    -  Reset Button can be clicked at any time to reset the game. it was added for user control and choice, with hope of giving a greater experience to those who might need it.
+    -  How to Play button. when clicked opens a model window with information and instructions on how to play, including a diagram to quickly convey the Game mechanics.
+
+![model image)](assets/images/p2-model.webp)
 
 
+* Game Play Area
+
+![game play area image](assets/images/game-play-area.webp)
+
+    -  The back ground was chosen to match the favicon, logo center and the heading for UX.
+    -  Game selcetion buttons were made large and given fontawesome icons to enhance UX.
+    -  Play button was added to increase user interactivety with the same style theme as the options button above it.
+  
  

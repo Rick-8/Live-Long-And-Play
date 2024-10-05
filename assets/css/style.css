@@ -115,7 +115,7 @@ header h2 {
 }
 
 #reset-button:hover {
-    background-color: rgba(4, 131, 199, 0.4);
+    background-color: rgba(173, 239, 16, 0.8);
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ header h2 {
 }
 
 #how-to-btn:hover {
-    background-color: rgba(4, 131, 199, 0.4);
+    background-color: rgba(173, 239, 16, 0.8);
     cursor: pointer;
 }
 
@@ -189,12 +189,12 @@ header h2 {
 }
 
 .options-buttons button:hOVER {
-    background-color: rgba(4, 131, 199, 0.4);
+    background-color: rgba(173, 239, 16, 0.8);
     cursor: pointer;
 }
 
 #play-button:hover {
-    background-color: rgba(4, 131, 199, 0.4);
+    background-color: rgba(173, 239, 16, 0.8);
 }
 
 @media (min-width: 690px) {
