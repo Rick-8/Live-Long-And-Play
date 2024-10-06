@@ -49,8 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  /* "Play!" button functionality */
-  playButton.addEventListener("click", function () {
+  /* Play button functionality */
+  playButton.addEventListener("click", playRound);  // Attach playRound to playButton
+
+  /* Function to play a round */
+  function playRound() {
     if (userChoice === "") {
       alert("Please make a selection before clicking Play!");
       return;
@@ -61,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    playGame(userChoice);
+    playGame(userChoice); // Call playGame when a round is played
 
     /* Increment the round count and update the display */
     roundCount++;
@@ -71,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (roundCount === maxRounds) {
       declareOverallWinner();
     }
-  });
+  }
 
   /* Function to play a round */
   function playGame(userChoice) {
@@ -135,7 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
     /* Show the final message */
     resultDisplay.textContent = `Game Over! ${finalMessage}`;
     playButton.textContent = "Reset Game";
-    playButton.onclick = resetGame;
+    playButton.removeEventListener("click", playRound); 
+    playButton.addEventListener("click", resetGame); 
   }
 
   /* Function to reset the game */
@@ -156,26 +160,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* Change button text back and re-enable play button functionality */
     playButton.textContent = "Play!";
-    playButton.onclick = function () {
-      if (userChoice === "") {
-        alert("Please make a selection before clicking Play!");
-        return;
-      }
-
-      if (roundCount < maxRounds) {
-        playGame(userChoice);
-        roundCount++;
-        roundDisplay.textContent = `Round: ${roundCount}/${maxRounds}`;
-
-        if (roundCount === maxRounds) {
-          declareOverallWinner();
-        }
-      }
-    };
+    playButton.removeEventListener("click", resetGame); 
+    playButton.addEventListener("click", playRound); 
   }
 
   /* Event listener for reset button */
-  resetButton.addEventListener("click", resetGame);
+  if (resetButton) {
+    resetButton.addEventListener("click", resetGame);
+  }
 
   /* Function to capitalize the first letter */
   function capitalize(word) {
