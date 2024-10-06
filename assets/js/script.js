@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* Play button functionality */
-  playButton.addEventListener("click", playRound);  // Attach playRound to playButton
+  playButton.addEventListener("click", playRound); // Attach playRound to playButton
 
   /* Function to play a round */
   function playRound() {
@@ -138,8 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
     /* Show the final message */
     resultDisplay.textContent = `Game Over! ${finalMessage}`;
     playButton.textContent = "Reset Game";
-    playButton.removeEventListener("click", playRound); 
-    playButton.addEventListener("click", resetGame); 
+    playButton.removeEventListener("click", playRound);
+    playButton.addEventListener("click", resetGame);
   }
 
   /* Function to reset the game */
@@ -160,8 +160,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* Change button text back and re-enable play button functionality */
     playButton.textContent = "Play!";
-    playButton.removeEventListener("click", resetGame); 
-    playButton.addEventListener("click", playRound); 
+    playButton.removeEventListener("click", resetGame);
+    playButton.addEventListener("click", playRound);
   }
 
   /* Event listener for reset button */

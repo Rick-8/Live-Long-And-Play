@@ -109,6 +109,7 @@ header h2 {
     max-height: 50vh
 }
 
+/* Reset Button */
 #reset-button {
     font-size: 1.0rem;
     padding: 0px 20px;
@@ -119,6 +120,7 @@ header h2 {
     cursor: pointer;
 }
 
+/* How to play button */
 #how-to-btn {
     font-size: 1.0rem;
     padding: 0px 20px;
@@ -129,6 +131,7 @@ header h2 {
     cursor: pointer;
 }
 
+/* Game play area */
 .game-area {
     background-color: #0483c7;
     color: black;
@@ -144,6 +147,7 @@ header h2 {
     text-align: center;
 }
 
+/* Top button (how to and reset buttons) */
 .top-buttons {
     display: flex;
     flex-direction: row;
@@ -168,7 +172,7 @@ header h2 {
     font-size: 2em;
 }
 
-
+/* Game play area results */
 .results {
     font-size: 5vw;
     margin-top: 5vh;
@@ -197,6 +201,7 @@ header h2 {
     background-color: rgba(173, 239, 16, 0.8);
 }
 
+/* Media query for tablet styling */
 @media (min-width: 690px) {
 
     .game-area {
@@ -215,8 +220,7 @@ header h2 {
     header {
         display: flex;
         flex-direction: row;
-
-        align-items: left;
+        align-items: center;
         color: #0483c7;
         font-size: 25px;
     }
@@ -261,6 +265,7 @@ header h2 {
 
 }
 
+/* Media query for larger screens (laptop or desktops) */
 @media (min-width: 870px) {
 
     .game-area {
@@ -277,8 +282,7 @@ header h2 {
     header {
         display: flex;
         flex-direction: row;
-
-        align-items: left;
+        align-items: center;
         color: #0483c7;
         font-size: 25px;
     }
