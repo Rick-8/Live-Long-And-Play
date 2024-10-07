@@ -118,8 +118,14 @@ By targeting a broad yet focused audience, this game has the potential to attrac
   ## Testing 
 
   **Lighthouse**
-  
+
+  I ran my page through Lighthouse to ensure my site is easy to read and nicely accessible.
+
   ![Lighthouse page check](assets/images/p2-lighthouse-report.webp)
+
+  - I tested my site on Chrome, Safari and Firefox, and it works well on these browsers.
+  - I tested all buttons on the page to make sure they were working, and worked as they should.
+  - I tested that the game works, and resets correctly, ready to start another round.
 
 **HTML**
   - HTML code passes the W3C code check
@@ -137,5 +143,49 @@ By targeting a broad yet focused audience, this game has the potential to attrac
  ![Game Logo](assets/images/p2-js-script-checker.webp)
 
 
+ ## Bugs
+
+   - Firstly I created a second page to create a how to section, but with my mentors insipration I decided to change to a model, I used the W3C page to learn how to do 
+     this, and I feel this is a great was to convey the relivent information to the user, and 
+   - Following the the first game and after resetting I found that the game didnt run as it did before, the scores were adding wrong and and not resetting correctly.
+      to overcome this, I corrected the event listeners for both the play and reset buttons, so that the game would reset properly and the play button would also work as before.
+   - There were various minor errors in the HTML and JS code that I was quickly able to discover, because I was running my code through the W3 validation services and 
+     jshint.com at periodic points, making sure the code was right. I also used the Google Developer Tools to test and iron out little kinks in my HTML and CSS code.
+
+## Deployment
+
+- Version Control
+
+  - The site was created using the Gitpod editor and pushed to the remote Live Long and Play repository on Github.com
+  - Git commands were used regularly during the construction of the club website using the following Git commands
+  - Git add . - to add files to the staging area before being committed
+  - Git commit -m "commit title" - to commit a file to the queue ready for the final process.
+  - Git push - used to send the committed files to the Github repository.
+  - Deployment to Github pages
+
+- I used the following steps to deploy using the Github pages as follows
+
+  - Once inside the repository, I clicked on the settings tab
+  - I then went to the pages section
+  - Making sure the main branch was selected I then clicked on save and the page URL was created.
+  - Please click ["Here”](https://rick-8.github.io/Live-Long-And-Play/) to find the live site Live Long and Play Game.
+
+- Using Gitpod
+
+  - To set up my working IDE I logged in to Gitpod and navigated to the workspaces section
+  - Clicking on new workspace and in putting the repository URL,
+  - The IDE was created.
+
+## Design Wireframes
+
+ - Making the site I used the mobile first method in developing. I used wireframes to plot a general layout both on Mobile first and being responsive on bigger screens.
+
+  - Mobile phone screens.
+
+ ![Mobile Wireframes image](assets/images/p2-wireframes-small-screen.webp)
+
+  - Larger screens
+
+ ![Large Screens Wireframes](assets/images/p2-wireframe-design.webp)
 
     
