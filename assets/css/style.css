@@ -79,8 +79,14 @@ header h2 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-
+    font-size: 1.5vw;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 
 .close {
     color: #aaaaaa;
@@ -332,7 +338,7 @@ header h2 {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 200px;
+        width: 180px;
     }
 
     header h1 {
@@ -367,7 +373,7 @@ header h2 {
         width: 105px;
         height: 110px;
         border-radius: 50%;
-        
+
     }
 
     .options-buttons button {

@@ -151,8 +151,9 @@ By targeting a broad yet focused audience, this game has the potential to attrac
       to overcome this, I corrected the event listeners for both the play and reset buttons, so that the game would reset properly and the play button would also work as before.
    - There were various minor errors in the HTML and JS code that I was quickly able to discover, because I was running my code through the W3 validation services and 
      jshint.com at periodic points, making sure the code was right. I also used the Google Developer Tools to test and iron out little kinks in my HTML and CSS code.
-
-## Deployment
+   - Druing the development process, my Mentor advice was not to use Alerts, so they were removed and replaced with messages in the game play display area.
+   
+   ## Deployment
 
 - Version Control
 
@@ -188,4 +189,24 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
  ![Large Screens Wireframes](assets/images/p2-wireframe-design.webp)
 
-    
+   - During the development process of my website I found a few snags with the styling. The first one being buttons were to small and hard to read, so I rounded them 
+     gave then an interactive border, and centered them on the page as before.
+
+   - The how to button Was moved to the right Aligned over the game play area.
+
+   - The Reset button, was added during the development process, in order to give the user more control over the game, and increase interactivity.
+
+   ## Credits
+
+    - I would like to thank and credit my mentor for all his advice and guidance.
+    - I would like to credit the Love Maths walk through project, as some aspects of layout were used in inspiration for this project.
+    - I would also like to credit the W3C Schools website for learning how to create a model.
+
+   ## Content
+
+    - The Favicon was used from croping the center of the logo, and feeding it into the [favomatic](https://favicomatic.com/) website, I then uploaded it to this 
+      project.
+    - The selection button Icons came from [Font Awesome](https://fontawesome.com/)
+    - The Logo was created using Chat GPT, and parts croped down and used 
+    - the whole page is using the bangers font from Google fonts.
+
