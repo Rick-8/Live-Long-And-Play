@@ -24,7 +24,7 @@ Play Now and Let the Best Mind Win!
 
 ## Project Goal
 
-To create a fun and engaging game where each move is a strategic decision to outwit the computer and rise victorious! With future development, this website holds potential to incorporate pictures instead of text during gameplay and host other games, giving the user fun options for as long as needed.
+To create a fun and engaging game where each move is a strategic decision to outwit the computer and rise victorious! With future development, this website holds potential to incorporate pictures instead of text during game play and host other games, giving the user fun options for as long as needed.
 
 ## Target Audience
 
@@ -74,7 +74,7 @@ By targeting a broad yet focused audience, this game has the potential to attrac
   - Colour schemes were kept minimal using the logo colour scheme and used in contrast to improve UX, making it easy to navigate and understand.
   - Responsive features like button hover effects and cursor changes were added to give the website more appeal.
   - How to Play modal was used to keep the main website clutter-free, allowing the user to play a game that's easier on the eye, improving UX.
-  - Gameplay buttons were given the same styling to improve the site look and overall UX.
+  - Game play buttons were given the same styling to improve the site look and overall UX.
 
 * **![Screenshot of the website's homepage on different devices](favicon.ico) Favicon**
   - I used Windows Paint to crop the logo down, as it was bright and matched the logo inside for continuity.
@@ -90,17 +90,17 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
 * **Top Buttons Section**
   
-  - Above the gameplay area, there are 2 buttons.
+  - Above the game play area, there are 2 buttons.
   - Buttons were used for ease of use, and easy to find so their purpose was clear for the user to make use if if needed.
   
   ![top buttons image](assets/images/top-bottons.webp)
 
   - The Reset Button can be clicked at any time to reset the game. It was added for user control and choice, with hope of giving a greater experience to those who might need it.
-  - The How to Play button, when clicked, opens a modal window with information and instructions on how to play, including a diagram to quickly convey the game mechanics.
+  - The "How to Play" button, when clicked, opens a modal window with information and instructions on how to play, including a diagram to quickly convey the game mechanics.
   
   ![modal image](assets/images/p2-model.webp)
 
-* **Gameplay Area**
+* **Game play Area**
 
   ![gameplay area image](assets/images/game-play-area.webp)
 
@@ -111,9 +111,9 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 ### Future Features
     - The potential to add Graphics instead of writing
     - Add sound to create an auditory back ground atmosphere with responsive sounds on buttons and also on the results given back.
-    - Make this website part of a larger game website along side other games
+    - Make this website part of a larger game website alongside other games
 
-    The above should positively increase the over all User Experience.
+    The above should positively increase the overall User Experience.
 
   ## Testing 
 
@@ -145,13 +145,14 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
  ## Bugs
 
-   - Firstly I created a second page to create a how to section, but with my mentors insipration I decided to change to a model, I used the W3C page to learn how to do 
-     this, and I feel this is a great was to convey the relivent information to the user, and 
-   - Following the the first game and after resetting I found that the game didnt run as it did before, the scores were adding wrong and and not resetting correctly.
+   - Firstly I created a second page to create a how to section, but with my mentor's inspiration I decided to change to a model, I used the W3C page to learn how to 
+     do this, and I feel this is a great was to convey the relevent information to the user, and 
+   - Following the the first game and after resetting I found that the game didn't run as it did before, the scores were adding wrong and and not resetting correctly.
       to overcome this, I corrected the event listeners for both the play and reset buttons, so that the game would reset properly and the play button would also work as before.
    - There were various minor errors in the HTML and JS code that I was quickly able to discover, because I was running my code through the W3 validation services and 
-     jshint.com at periodic points, making sure the code was right. I also used the Google Developer Tools to test and iron out little kinks in my HTML and CSS code.
-   - Druing the development process, my Mentor advice was not to use Alerts, so they were removed and replaced with messages in the game play display area.
+     jshint.com at periodic points, making sure the code was right. which now show clear, and no faults found.
+   - I used the Google Developer Tools to test and iron out little kinks in my HTML and CSS code.
+   - During the development process, my Mentor advice was not to use Alerts, so they were removed and replaced with messages in the game play display area.
    
    ## Deployment
 
@@ -190,7 +191,7 @@ By targeting a broad yet focused audience, this game has the potential to attrac
  ![Large Screens Wireframes](assets/images/p2-wireframe-design.webp)
 
    - During the development process of my website I found a few snags with the styling. The first one being buttons were to small and hard to read, so I rounded them 
-     gave then an interactive border, and centered them on the page as before.
+     gave then an interactive border, and centred them on the page as before.
 
    - The how to button Was moved to the right Aligned over the game play area.
 
@@ -198,15 +199,15 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
    ## Credits
 
-    - I would like to thank and credit my mentor for all his advice and guidance.
-    - I would like to credit the Love Maths walk through project, as some aspects of layout were used in inspiration for this project.
-    - I would also like to credit the W3C Schools website for learning how to create a model.
+   - I would like to thank and credit my mentor for all his advice and guidance.
+   - I would like to credit the Love Maths walk through project, as some aspects of layout were used in inspiration for this project.
+   - I would also like to credit the W3C Schools website for information on how to create a model.
 
    ## Content
 
-    - The Favicon was used from croping the center of the logo, and feeding it into the [favomatic](https://favicomatic.com/) website, I then uploaded it to this 
+   - The Favicon was used from cropping the centre of the logo, and feeding it into the [favomatic](https://favicomatic.com/) website, I then uploaded it to this 
       project.
-    - The selection button Icons came from [Font Awesome](https://fontawesome.com/)
-    - The Logo was created using Chat GPT, and parts croped down and used 
-    - the whole page is using the bangers font from Google fonts.
+   - The selection button Icons came from [Font Awesome](https://fontawesome.com/)
+   - The Logo was created using Chat GPT, based on the game theme title. 
+   - the whole page is using the bangers font from Google fonts.
 
