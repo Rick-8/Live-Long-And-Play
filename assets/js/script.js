@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
    * Create a display element for the round count and insert it into the game area.
    */
   const roundDisplay = document.createElement("p");
+  roundDisplay.className = "round-display";
   roundDisplay.textContent = `Round: 0/${maxRounds}`;
   const gameArea = document.querySelector(".results");
   gameArea.insertBefore(roundDisplay, resultDisplay);
