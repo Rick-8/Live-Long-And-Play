@@ -140,9 +140,9 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
    The above should positively increase the overall User Experience.
 
-  ## Manuel Testing 
+  ## Manual Testing
 
-  I spent alot of time during and after conducting manuel testing, to ensure that the piece of code I was working on was working as intended.
+  I spent alot of time during and after conducting manual testing, to ensure that the piece of code I was working on was working as intended.
   and making sure this site functitions properly as a whole. 
 
 * Some of the testing I did is listed below.
