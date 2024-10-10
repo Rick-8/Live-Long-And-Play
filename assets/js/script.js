@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const computerScoreDisplay = document.getElementById("computer-score");
   const playButton = document.getElementById("play-button");
   const resetButton = document.getElementById("reset-button");
+  const computerScoreNumber = document.getElementById("computer-score-number");
+  const userScoreNumber = document.getElementById("user-score-number");
 
   /**
    * Create a display element for the round count and insert it into the game area.
@@ -110,12 +112,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (winner === "You win!") {
       userScore++;
+      userScoreNumber.style.color = "green";
+      computerScoreNumber.style.color = "red";
     } else if (winner === "You lost!") {
       computerScore++;
+      computerScoreNumber.style.color = "green";
+      userScoreNumber.style.color = "red";
     }
 
-    userScoreDisplay.textContent = `User Score: ${userScore}`;
-    computerScoreDisplay.textContent = `Computer Score: ${computerScore}`;
+    userScoreNumber.textContent = userScore;
+    computerScoreNumber.textContent = computerScore;
   }
 
   /**
