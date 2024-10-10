@@ -189,6 +189,7 @@ header h2 {
     margin-top: 5vh;
     width: 100%;
     text-align: left;
+
 }
 
 
@@ -231,6 +232,36 @@ header h2 {
 #spock:hover {
     background-color: rgba(173, 239, 16, 0.8);
 }
+
+#result {
+    background-color: #FFFDD0;
+    box-shadow: 0 0 5pt 0.5pt rgba(255, 253, 208, 0.7);
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.score-board {
+    background-color: #FFFDD0;
+    box-shadow: 0 0 5pt 0.5pt rgba(255, 253, 208, 0.7);
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+#user-choice {
+    background-color: #FFFDD0;
+    box-shadow: 0 0 5pt 0.5pt rgba(255, 253, 208, 0.7);
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#computer-choice {
+    background-color: #FFFDD0;
+    box-shadow: 0 0 5pt 0.5pt rgba(255, 253, 208, 0.7);
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
 
 /* Media query for tablet styling */
 @media (min-width: 690px) {

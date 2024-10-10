@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
       userChoice = this.getAttribute("data-choice");
       userChoiceDisplay.textContent = `Your Choice: ${capitalize(userChoice)}`;
+      resultDisplay.style.color = "black";
     });
   }
 
@@ -80,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function playRound() {
     if (userChoice === "") {
       resultDisplay.textContent = "Please make a selection before clicking Play!";
+      resultDisplay.style.color = "red";
       return;
     }
 
@@ -194,6 +196,9 @@ document.addEventListener("DOMContentLoaded", function () {
     userScoreDisplay.textContent = "User Score: 0";
     computerScoreDisplay.textContent = "Computer Score: 0";
     roundDisplay.textContent = `Round: 0/${maxRounds}`;
+
+    resultDisplay.style.color = "black";
+
 
     playButton.textContent = "Play!";
     playButton.removeEventListener("click", resetGame);
