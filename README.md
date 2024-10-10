@@ -66,6 +66,27 @@ The target audience for this game includes:
 
 By targeting a broad yet focused audience, this game has the potential to attract a wide range of players looking for a quick and engaging experience!
 
+## Design Wireframes
+
+ My first job was to design my website to get the right look and layout, making the site with the mobile first method in developing. I used wireframes to plot a general layout both on Mobile first and being responsive on bigger screens, using media queries.
+
+ * below are the designs I created as a basis for creating the game.
+
+  - Mobile phone screens.
+
+ ![Mobile Wireframes image](assets/images/p2-wireframes-small-screen.webp)
+
+  - Larger screens
+
+ ![Large Screens Wireframes](assets/images/p2-wireframe-design.webp)
+
+   - During the development process of my website I found a few snags with the styling. The first one being buttons were to small and hard to read, so I rounded them 
+     gave then an interactive border, and centred them on the page as before.
+
+   - The how to button Was moved to the right Aligned over the game play area.
+
+   - The Reset button, was added during the development process, in order to give the user more control over the game, and increase interactivity.
+
 ## Features
 
 * **Core Website Design:**
@@ -75,6 +96,8 @@ By targeting a broad yet focused audience, this game has the potential to attrac
   - Responsive features like button hover effects and cursor changes were added to give the website more appeal.
   - How to Play modal was used to keep the main website clutter-free, allowing the user to play a game that's easier on the eye, improving UX.
   - Game play buttons were given the same styling to improve the site look and overall UX.
+
+
 
 * **![Screenshot of the website's homepage on different devices](favicon.ico) Favicon**
   - I used Windows Paint to crop the logo down, as it was bright and matched the logo inside for continuity.
@@ -106,16 +129,32 @@ By targeting a broad yet focused audience, this game has the potential to attrac
 
   - The background was chosen to match the favicon, logo center, and heading for UX.
   - Game selection buttons were made large and given FontAwesome icons to enhance UX.
-  - A Play button was added to increase user interactivity with the same style theme as the options button above it.
+  - A play button was added to increase user interactivity with the same style theme as the options button above it.
+  - The results area were given cream back-grounds to match the logo back ground. creating a good contrast to the text that appears over it.
+  - The Error message "Please make a selection" was made red to attract attention, so the user knew what to do.
 
 ### Future Features
-    - The potential to add Graphics instead of writing
-    - Add sound to create an auditory back ground atmosphere with responsive sounds on buttons and also on the results given back.
-    - Make this website part of a larger game website alongside other games
+   - The potential to add Graphics instead of writing
+   - Add sound to create an auditory back ground atmosphere with responsive sounds on buttons and also on the results given back.
+   - Make this website part of a larger game website alongside other games
 
-    The above should positively increase the overall User Experience.
+   The above should positively increase the overall User Experience.
 
-  ## Testing 
+  ## Manuel Testing 
+
+  I spent alot of time during and after conducting manuel testing, to ensure that the piece of code I was working on was working as intended.
+  and making sure this site functitions properly as a whole. 
+
+* Some of the testing I did is listed below.
+
+ - Make sure the Lay out works as intended and gives a good lighthouse and wave score. 
+ - Make sure the game play works as intended and there are no bugs.
+ - Ensure that the layout is in good Contrast, and adjust accordingly, recording the changes with a commit message.
+ - Make sure the site is responsive.
+ - Create Git commits at every stage.
+ - Asked friends and family to play and test it out and give me feed back.
+ - and that the whole site meets a good standard of UX, ensuring a theme that is relivent, consistant, and user desirable.
+ 
 
   **Lighthouse**
 
@@ -126,6 +165,13 @@ By targeting a broad yet focused audience, this game has the potential to attrac
   - I tested my site on Chrome, Safari and Firefox, and it works well on these browsers.
   - I tested all buttons on the page to make sure they were working, and worked as they should.
   - I tested that the game works, and resets correctly, ready to start another round.
+
+**Wave**
+
+I ran my site through the [Wave](https://wave.webaim.org/) creating the following summarys, and passes all major tests.
+
+![Wave Summary](assets/images/wave-summary.webp) ![Wave Contrast](assets/images/wave-contrast.webp)
+
 
 **HTML**
   - HTML code passes the W3C code check
@@ -143,8 +189,7 @@ By targeting a broad yet focused audience, this game has the potential to attrac
  ![Game Logo](assets/images/p2-js-script-checker.webp)
 
 
- ## Bugs
-
+* Some of the Bugs
    - Firstly I created a second page to create a how to section, but with my mentor's inspiration I decided to change to a model, I used the W3C page to learn how to 
      do this, and I feel this is a great was to convey the relevent information to the user, and 
    - Following the the first game and after resetting I found that the game didn't run as it did before, the scores were adding wrong and and not resetting correctly.
@@ -153,6 +198,8 @@ By targeting a broad yet focused audience, this game has the potential to attrac
      jshint.com at periodic points, making sure the code was right. which now show clear, and no faults found.
    - I used the Google Developer Tools to test and iron out little kinks in my HTML and CSS code.
    - During the development process, my Mentor advice was not to use Alerts, so they were removed and replaced with messages in the game play display area.
+   - When making the text red for the "make a selection please" if you press play with out making a selection It didnt change back to black when you did press play, 
+     so I added code to the reset function and the track users selected choice section to rectify this.
    
    ## Deployment
 
@@ -177,25 +224,6 @@ By targeting a broad yet focused audience, this game has the potential to attrac
   - To set up my working IDE I logged in to Gitpod and navigated to the workspaces section
   - Clicking on new workspace and in putting the repository URL,
   - The IDE was created.
-
-## Design Wireframes
-
- - Making the site I used the mobile first method in developing. I used wireframes to plot a general layout both on Mobile first and being responsive on bigger screens.
-
-  - Mobile phone screens.
-
- ![Mobile Wireframes image](assets/images/p2-wireframes-small-screen.webp)
-
-  - Larger screens
-
- ![Large Screens Wireframes](assets/images/p2-wireframe-design.webp)
-
-   - During the development process of my website I found a few snags with the styling. The first one being buttons were to small and hard to read, so I rounded them 
-     gave then an interactive border, and centred them on the page as before.
-
-   - The how to button Was moved to the right Aligned over the game play area.
-
-   - The Reset button, was added during the development process, in order to give the user more control over the game, and increase interactivity.
 
    ## Credits
 
